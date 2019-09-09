@@ -1,0 +1,18 @@
+public class Stewie {
+	
+	public static void main(String[] args)	{
+		
+		/* print this stuff
+		 * //////////////////////
+|| Victory is mine! ||
+\\\\\\\\\\\\\\\\\\\\\\
+		 */
+		
+		
+		System.out.println("//////////////////////");
+		System.out.println("|| Victory is mine! ||");
+		System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+		
+	}
+	
+}
