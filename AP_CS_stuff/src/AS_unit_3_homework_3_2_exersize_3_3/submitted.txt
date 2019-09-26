@@ -1,0 +1,9 @@
+public static void printPowersOfN(int n1, int n2) {
+	    
+	for (int i = 0; i < (n2 + 1); i++) {
+	     
+		System.out.print((int) (Math.pow(n1, i)) + " ");
+	        
+	}
+	    
+}
