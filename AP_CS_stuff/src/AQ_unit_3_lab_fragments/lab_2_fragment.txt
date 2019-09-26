@@ -1,0 +1,5 @@
+public static double mySq(double n) {
+    
+    return(Math.pow(n, 2));
+    
+}
