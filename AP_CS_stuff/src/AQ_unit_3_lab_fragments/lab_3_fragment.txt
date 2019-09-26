@@ -1,0 +1,5 @@
+public static int myDiff(int n1, int n2) {
+    
+    return(Math.abs(n1-n2));
+    
+}
