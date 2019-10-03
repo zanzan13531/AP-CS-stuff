@@ -1,0 +1,15 @@
+public static void printReverse(String s) {
+    
+    String a = "";
+    
+    for (int x = 0; x < s.length(); x++) {
+        
+        a += s.charAt(s.length()-(x+1));
+        
+    }
+    
+    if (s.length() > 0){
+        System.out.println(a);
+    }
+    
+}
