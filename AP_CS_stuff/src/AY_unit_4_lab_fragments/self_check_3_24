@@ -1,0 +1,4 @@
+Scanner bob = new Scanner(System.in);
+System.out.println("Type an integer:");
+int money = Integer.parseInt(bob.nextLine());
+System.out.println(money + " times 2 = " + money*2);

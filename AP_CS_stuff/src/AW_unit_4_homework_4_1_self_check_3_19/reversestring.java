@@ -8,7 +8,8 @@ public class reversestring {
 	    
 	    for (int x = 0; x < s.length(); x++) {
 	        
-	        a += s.charAt(s.length()-(x+1));
+	        //a += s.charAt(s.length()-(x+1));
+	    	a += s.substring(s.length()-(x+1),s.length()-x);
 	        
 	    }
 	    
