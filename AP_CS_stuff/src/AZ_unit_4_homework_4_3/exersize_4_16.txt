@@ -1,0 +1,29 @@
+public static void printPalindrome(Scanner d){
+    
+    System.out.println("Type one or more words:");
+    String a = d.nextLine();
+    String b = a.replaceAll("\\s","");
+    
+    String c = "";
+	    
+	for (int x = 0; x < b.length(); x++) {
+	        
+	    c += b.substring(b.length()-(x+1),b.length()-x);
+	    //c += b.charAt(b.length()-(x+1));
+	        
+	}
+	
+	b = b.replaceAll("\\s","");
+	c = c.replaceAll("\\s","");
+	
+	if (c.equals(b)) {
+	    
+	    System.out.print(a + " is a palindrome!");
+	    
+	} else {
+	    
+	    System.out.print(a + " is not a palindrome.");
+	    
+	}
+    
+}
