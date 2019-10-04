@@ -1,0 +1,9 @@
+Scanner asdf = new Scanner(System.in);
+System.out.print("Type a number: ");
+int number = Integer.parseInt(asdf.nextLine());
+System.out.println();
+if ((number % 2) == 0) {
+    System.out.print("even");
+} else {
+    System.out.print("odd");
+}
