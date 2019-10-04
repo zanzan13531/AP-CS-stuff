@@ -1,8 +1,6 @@
-package BA_unit_4_lab_1;
-
 import java.util.*;
 
-public class sumNumbers {
+public class SumNumbers {
 
 	public static void main(String[] args){
 		
