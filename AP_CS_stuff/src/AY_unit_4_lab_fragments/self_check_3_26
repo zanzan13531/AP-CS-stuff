@@ -1,0 +1,8 @@
+Scanner bob = new Scanner(System.in);
+System.out.println("What is your phrase?");
+String thing = bob.nextLine();
+System.out.println("How many times should I repeat it?");
+int a = Integer.parseInt(bob.nextLine());
+for (int x = 0; x < a; x ++) {
+    System.out.println(thing);
+}
