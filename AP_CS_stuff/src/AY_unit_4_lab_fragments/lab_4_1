@@ -1,0 +1,23 @@
+// Whoops, someone forgot to add the method header!
+public static void getGrade(double percent) {
+if (percent >= 90)
+{
+    System.out.println("A");
+}
+else if (percent >= 80)
+{
+    System.out.println("B");
+}
+else if (percent >= 70)
+{
+    System.out.println("C");
+}
+else if (percent >= 60)
+{
+    System.out.println("D");
+}
+else if (percent < 60)
+{
+    System.out.println("F");
+}
+}
