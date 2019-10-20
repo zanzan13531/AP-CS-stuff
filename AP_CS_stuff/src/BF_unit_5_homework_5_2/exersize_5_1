@@ -1,0 +1,19 @@
+public static void showTwos(int number) {
+    
+    int counter = 0;
+    int numbery = number;
+    
+    while ((numbery % 2) == 0) {
+        counter = counter + 1;
+        numbery = numbery / 2;
+    }
+    
+    System.out.print(number + " = ");
+    
+    for (int y = 0; y < counter; y++) {
+        System.out.print("2 * ");
+    }
+    
+    System.out.println(numbery);
+    
+}

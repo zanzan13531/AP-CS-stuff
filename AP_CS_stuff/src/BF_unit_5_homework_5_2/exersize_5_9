@@ -1,0 +1,10 @@
+public static void printFactors(int number) {
+    
+    for (int y = 1; y < number; y++) {
+        if ((number % y) == 0) {
+            System.out.print(y + " and ");
+        }
+    }
+    System.out.println(number);
+    
+}
