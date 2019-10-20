@@ -1,0 +1,15 @@
+public static void printLetters(String text) 
+{
+    
+    if (text.length() < 1) {
+        return;
+    }
+    for (int i = 0; i < text.length()-1; i++) 
+    {
+        System.out.print(text.substring(i, i + 1) + "-");
+    }
+    
+    System.out.print(text.substring(text.length()-1,text.length()));
+    
+    System.out.println();   // to end the line of output
+}
