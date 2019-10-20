@@ -1,0 +1,25 @@
+public static void randomWalk() {
+    
+    int max_position = 0;
+    
+    int position = 0;
+    
+    while (Math.abs(position) < 3) {
+        
+        System.out.println("position = " + position);
+        
+        if (Math.random() > 0.5) {
+            position = position - 1;
+        } else {
+            position = position + 1;
+            if (position > max_position) {
+                max_position = position;
+            }
+        }
+        
+    }
+    
+    System.out.println("position = " + position);
+    System.out.println("max position = " + max_position);
+    
+}
