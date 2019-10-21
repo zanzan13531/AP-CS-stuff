@@ -27,6 +27,8 @@ public class Average {
 		stuffs = stuffs - 1;
 		System.out.println("Average: " + sum/stuffs);
 		
+		bob.close();
+		
 	}	
 	
 }
