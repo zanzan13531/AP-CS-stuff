@@ -23,7 +23,9 @@ public class sumNumbers {
 		}
 		
 		System.out.print("sum = " + f);
-	
+		
+		a.close();
+		
 	}
 	
 }

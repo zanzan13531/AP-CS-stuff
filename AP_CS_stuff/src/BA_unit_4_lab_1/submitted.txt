@@ -21,6 +21,8 @@ public class SumNumbers {
 		}
 		
 		System.out.print("sum = " + f);
+		
+		a.close();
 	
 	}
 	

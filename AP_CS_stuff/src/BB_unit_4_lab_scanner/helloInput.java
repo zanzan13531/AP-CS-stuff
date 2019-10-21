@@ -13,6 +13,8 @@ public class helloInput {
 		String c = a.nextLine();
 		System.out.println("Hi " + b + " you are " + c + " years old. Please be safe online and don't disclose your name and age online.");
 		
+		a.close();
+		
 	}
 	
 }
