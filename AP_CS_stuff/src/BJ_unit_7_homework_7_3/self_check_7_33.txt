@@ -1,0 +1,7 @@
+int[][] table = new int[5][10];
+
+for (int x = 0; x < table.length; x++) {
+    for (int y = 0; y < table[0].length; y++) {
+        table[x][y] = x*y;
+    }
+}
