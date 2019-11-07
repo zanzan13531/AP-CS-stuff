@@ -1,0 +1,18 @@
+public static boolean isUnique(int[] bob) {
+    
+    if (bob.length < 2) {
+        return (true);
+    }
+    
+    for (int x = 0; x < bob.length; x++) {
+        for (int y = (bob.length - 1); y > x; y--) {
+            if (bob[x] == bob[y]) {
+                return (false);
+            }
+        }
+    }
+    
+    return (true);
+    
+    
+}
