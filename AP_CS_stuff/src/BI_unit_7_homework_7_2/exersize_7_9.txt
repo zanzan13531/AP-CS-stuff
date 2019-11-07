@@ -1,0 +1,21 @@
+public static int minGap(int[] bob) {
+    
+    if (bob.length < 2) {
+        return (0);
+    }
+    
+    int difference = bob[1] - bob[0];
+    int yes;
+    
+    for (int x = 0; x < (bob.length - 1); x++) {
+        
+        yes = bob[x+1] - bob[x];
+        if (yes < difference) {
+            difference = yes;
+        }
+        
+    }
+    
+    return (difference);
+    
+}

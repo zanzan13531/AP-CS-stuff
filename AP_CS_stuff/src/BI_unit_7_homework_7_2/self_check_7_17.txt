@@ -1,0 +1,19 @@
+public static boolean allLess(int[] arrayOne, int[] arrayTwo) {
+    
+    if (arrayOne.length != arrayTwo.length) {
+        return (false);
+    }
+    
+    for (int x = 0; x < arrayOne.length; x++) {
+        
+        if (!(arrayOne[x] < arrayTwo[x])) {
+            
+            return (false);
+            
+        }
+        
+    }
+    
+    return (true);
+    
+}
