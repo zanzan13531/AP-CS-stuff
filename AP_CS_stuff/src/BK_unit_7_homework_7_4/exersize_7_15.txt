@@ -1,0 +1,13 @@
+public static int[] collapse(int[] bob) {
+    int[] joe = new int[(int) (Math.ceil(bob.length / 2.0))];
+    
+    for (int x = 0; x < bob.length / 2; x++) {
+        joe[x] = bob[x*2] + bob[x*2+1];
+    }
+    
+    if ((bob.length % 2) == 1) {
+        joe[bob.length/2] = bob[bob.length - 1];
+    }
+    
+    return (joe);
+}

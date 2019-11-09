@@ -1,0 +1,12 @@
+public static void swapPairs(String[] bob) {
+
+    String hold1;
+    String hold2;
+    
+    for (int x = 0; x < bob.length/2; x++) {
+        hold1 = bob[x*2];
+        hold2 = bob[x*2+1];
+        bob[x*2] = hold2;
+        bob[x*2+1] = hold1;
+    }
+}
