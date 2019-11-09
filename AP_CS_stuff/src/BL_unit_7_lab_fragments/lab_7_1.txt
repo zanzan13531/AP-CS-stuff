@@ -1,0 +1,5 @@
+public static void add1(int[] bob) {
+    for (int x = 0; x < bob.length; x++) {
+        bob[x] = bob[x] + 1;
+    }
+}

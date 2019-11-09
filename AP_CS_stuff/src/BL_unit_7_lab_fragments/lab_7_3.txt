@@ -1,0 +1,10 @@
+public static void reverse(int[] bob) {
+    int hold1;
+    int hold2;
+    for (int x = 0; x < (bob.length / 2); x++) {
+        hold1 = bob[x];
+        hold2 = bob[bob.length - (x + 1)];
+        bob[x] = hold2;
+        bob[bob.length - (x + 1)] = hold1;
+    }
+}

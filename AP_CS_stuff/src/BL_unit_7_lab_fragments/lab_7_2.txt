@@ -1,0 +1,7 @@
+public static double avg(double[] bob) {
+    double sum = 0.0;
+    for (int x = 0; x < bob.length; x++) {
+        sum = sum + bob[x];
+    }
+    return (sum/bob.length);
+}
