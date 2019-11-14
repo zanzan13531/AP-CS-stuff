@@ -21,7 +21,17 @@ public class array_thingy {
 			
 		}
 		
-		System.out.println(bob);
+		for (int y = 0; y < loopyness; y++) {
+			System.out.println(bob[y]);
+		}
+		
+		for (int y = 0; y < loopyness; y++) {
+			System.out.println(bob[loopyness-(y+1)]);
+		}
+		
+		for (int y = 0; y < loopyness; y += 2) {
+			System.out.println(bob[y]);
+		}
 		
 	}
 	
