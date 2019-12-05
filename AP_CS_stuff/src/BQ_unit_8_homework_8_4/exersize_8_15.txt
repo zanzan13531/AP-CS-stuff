@@ -1,0 +1,3 @@
+public double getSlope() {
+    return ((1.0*p2.getY()-p1.getY())/(1.0*p2.getX()-p1.getX()));
+}

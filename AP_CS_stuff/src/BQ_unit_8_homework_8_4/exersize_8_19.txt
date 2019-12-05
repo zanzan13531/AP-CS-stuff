@@ -1,0 +1,8 @@
+public Rectangle(GridPoint p, int width, int height) {
+		
+		x = p.getX();
+		y = p.getY();
+		this.width = width;
+		this.height = height;
+		
+	}

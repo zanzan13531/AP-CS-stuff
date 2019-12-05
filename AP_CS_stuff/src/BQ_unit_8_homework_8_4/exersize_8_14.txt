@@ -1,0 +1,25 @@
+public class GridLine {
+	
+	private GridPoint p1;
+	private GridPoint p12;
+	
+	public GridLine(GridPoint p1, GridPoint p2) {
+		
+		this.p1 = p1;
+		this.p2 = p2;
+		
+	}
+	
+	public GridPoint getP1() {
+		return (p1);
+	}
+	
+	public GridPoint getP2() {
+		return (p2);
+	}
+	
+	public String toString() {
+		return ("[" + p1.toString() + ", " + p2.toString() + "]");
+	}
+	
+}
