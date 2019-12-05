@@ -1,0 +1,7 @@
+public String getNormalOrder() {
+    return (firstName + " " + middleInitial + ". " + lastName);
+}
+
+public String getReverseOrder() {
+    return (lastName + ", " + firstName + " " + middleInitial + ".");
+}

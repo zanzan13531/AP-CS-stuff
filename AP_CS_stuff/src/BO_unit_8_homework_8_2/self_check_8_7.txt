@@ -1,0 +1,15 @@
+public class Name {
+    
+    private String firstName;
+    private String lastName;
+    private String middleInitial;
+    
+    public Name(String fN, String lN, String mI) {
+        
+        firstName = fN;
+        lastName = lN;
+        middleInitial = mI;
+        
+    }
+    
+}

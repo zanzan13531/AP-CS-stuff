@@ -1,0 +1,7 @@
+    public Name(String fN, String mI, String lN) {
+        
+        firstName = fN;
+        lastName = lN;
+        middleInitial = mI;
+        
+    }
