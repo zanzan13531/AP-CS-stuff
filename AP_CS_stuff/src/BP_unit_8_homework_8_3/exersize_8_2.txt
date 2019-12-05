@@ -1,0 +1,5 @@
+public void flip() {
+    int y1 = y;
+    y = -x;
+    x = -y1;
+}

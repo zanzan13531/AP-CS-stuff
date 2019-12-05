@@ -1,0 +1,4 @@
+public int manhattanDistance(GridPoint other) {
+    int distance = Math.abs(other.x - x) + Math.abs(other.y - y);
+    return (distance);
+}
