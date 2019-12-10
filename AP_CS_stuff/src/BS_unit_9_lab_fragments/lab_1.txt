@@ -1,0 +1,8 @@
+public interface Worker {
+    
+    int getHours();
+    double getSalary();
+    int getVacationDays();
+    String getVacationForm();
+    
+}

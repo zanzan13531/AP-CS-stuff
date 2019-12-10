@@ -1,0 +1,7 @@
+public class Company {
+    
+    public double getHourlyWage(Worker worker) {
+        return (worker.getSalary()/(worker.getHours()*52));
+    }
+    
+}
