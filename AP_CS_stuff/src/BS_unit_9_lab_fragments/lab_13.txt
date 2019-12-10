@@ -1,0 +1,12 @@
+public class Secretary extends Employee
+{
+    
+    public Secretary() {
+        super(0);
+    }
+    
+    public void takeDictation(String str)
+    {
+        System.out.println("Dictation: " + str);
+    }
+}
