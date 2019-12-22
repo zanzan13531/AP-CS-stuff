@@ -1,0 +1,19 @@
+public class TeamWithStats extends Team{
+    
+    private String stats;
+    
+    public TeamWithStats(Roster r) {
+        super(r);
+        stats = r.toString();
+    }
+    
+    public String getStats() {
+        return (stats);
+    }
+    
+    public String play(Game g) {
+        stats = stats + "\n" + super.play(g);
+        return (stats);
+    }
+    
+}

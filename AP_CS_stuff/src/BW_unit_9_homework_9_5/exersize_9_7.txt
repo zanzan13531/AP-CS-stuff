@@ -1,0 +1,17 @@
+public class AdvanceTicket extends Ticket{
+    
+    private int daysInAdvance;
+    
+    public AdvanceTicket(int number, int days) {
+        super(number);
+        daysInAdvance = days;
+    }
+    
+    public double getPrice() {
+        if (daysInAdvance >= 10) {
+            return (30.0);
+        } else {
+            return (40.0);
+        }
+    }
+}

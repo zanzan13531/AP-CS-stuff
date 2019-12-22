@@ -1,0 +1,23 @@
+public class PayPerPagePrinter extends Printer {
+    
+    private int totalCharge;
+    private int pricePerPage;
+    
+    public PayPerPagePrinter(PrinterSetupInfo setup) {
+        super(setup);
+        totalCharge = 0;
+        pricePerPage = setup.getPricePerPageInPennies();
+    }
+    
+    public int getTotalChargesInPennies() {
+        return (totalCharge);
+    }
+    
+    public String print(Document d) {
+        System.out.print(super.print(d));
+        totalCharge = totalCharge + d.getNumberOfPages() * pricePerPage;
+        return (" ");
+    }
+    
+    
+}
