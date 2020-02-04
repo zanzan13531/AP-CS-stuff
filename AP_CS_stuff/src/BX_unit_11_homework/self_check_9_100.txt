@@ -1,0 +1,4 @@
+sock lamp 1 sock 2
+sock yellow 1 sock 2
+lense lense 1 lense 2
+lense yellow 1 lense 2

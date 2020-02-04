@@ -1,0 +1,4 @@
+frog creature 1 croak 
+FAST! stripe creature 2
+land-dwelling creature 1 creature 2
+land-dwelling warm-blooded creature 2
