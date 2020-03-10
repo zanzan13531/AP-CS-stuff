@@ -1,0 +1,8 @@
+public static void doubleList(ArrayList<String> bob) {
+    
+    int size = bob.size();
+    for (int x = 0; x < size; x++) {
+        bob.add(x*2+1, bob.get(x*2));
+    }
+    
+}

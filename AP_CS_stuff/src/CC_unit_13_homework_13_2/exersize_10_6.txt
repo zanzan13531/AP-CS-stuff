@@ -1,0 +1,13 @@
+public static void minToFront(ArrayList<Integer> bob) {
+    int lowest = bob.get(0);
+    int index = 0;
+    for (int x = 0; x < bob.size(); x++) {
+        if (bob.get(x) < lowest) {
+            lowest = bob.get(x);
+            index = x;
+        }
+    }
+    bob.remove(index);
+    bob.add(0, lowest);
+    
+}

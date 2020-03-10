@@ -1,0 +1,10 @@
+public static void removeEvenLength(ArrayList<String> bob) {
+    int removed = 0;
+    int size = bob.size();
+    for (int x = 0; x < size; x++) {
+        if ((bob.get(x - removed).length() % 2) == 0) {
+            bob.remove(x - removed);
+            removed++;
+        }
+    } 
+}
