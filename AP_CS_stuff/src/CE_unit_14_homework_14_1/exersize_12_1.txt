@@ -1,0 +1,8 @@
+public static String starString(int n) {
+    if (n > 0) {
+        String a = starString(n - 1);
+        return (a + a);
+    } else {
+        return ("*");
+    }
+}
